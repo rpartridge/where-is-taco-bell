@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC86F6C720E19C36009F025D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86F6C620E19C36009F025D /* AppDelegate.swift */; };
+		CC86F6C920E19C36009F025D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86F6C820E19C36009F025D /* ViewController.swift */; };
+		CC86F6CC20E19C36009F025D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC86F6CA20E19C36009F025D /* Main.storyboard */; };
+		CC86F6CE20E19C36009F025D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC86F6CD20E19C36009F025D /* Assets.xcassets */; };
+		CC86F6D120E19C36009F025D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC86F6CF20E19C36009F025D /* LaunchScreen.storyboard */; };
+		CC86F6DC20E19C37009F025D /* where_is_taco_bellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86F6DB20E19C37009F025D /* where_is_taco_bellTests.swift */; };
+		CC86F6E720E19C37009F025D /* where_is_taco_bellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86F6E620E19C37009F025D /* where_is_taco_bellUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC86F6D820E19C37009F025D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC86F6BB20E19C36009F025D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC86F6C220E19C36009F025D;
+			remoteInfo = "where-is-taco-bell";
+		};
+		CC86F6E320E19C37009F025D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC86F6BB20E19C36009F025D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC86F6C220E19C36009F025D;
+			remoteInfo = "where-is-taco-bell";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC86F6C320E19C36009F025D /* where-is-taco-bell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "where-is-taco-bell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC86F6C620E19C36009F025D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC86F6C820E19C36009F025D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC86F6CB20E19C36009F025D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC86F6CD20E19C36009F025D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC86F6D020E19C36009F025D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC86F6D220E19C36009F025D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC86F6D720E19C37009F025D /* where-is-taco-bellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "where-is-taco-bellTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC86F6DB20E19C37009F025D /* where_is_taco_bellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = where_is_taco_bellTests.swift; sourceTree = "<group>"; };
+		CC86F6DD20E19C37009F025D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC86F6E220E19C37009F025D /* where-is-taco-bellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "where-is-taco-bellUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC86F6E620E19C37009F025D /* where_is_taco_bellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = where_is_taco_bellUITests.swift; sourceTree = "<group>"; };
+		CC86F6E820E19C37009F025D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC86F6C020E19C36009F025D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC86F6D420E19C37009F025D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC86F6DF20E19C37009F025D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC86F6BA20E19C36009F025D = {
+			isa = PBXGroup;
+			children = (
+				CC86F6C520E19C36009F025D /* where-is-taco-bell */,
+				CC86F6DA20E19C37009F025D /* where-is-taco-bellTests */,
+				CC86F6E520E19C37009F025D /* where-is-taco-bellUITests */,
+				CC86F6C420E19C36009F025D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC86F6C420E19C36009F025D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC86F6C320E19C36009F025D /* where-is-taco-bell.app */,
+				CC86F6D720E19C37009F025D /* where-is-taco-bellTests.xctest */,
+				CC86F6E220E19C37009F025D /* where-is-taco-bellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC86F6C520E19C36009F025D /* where-is-taco-bell */ = {
+			isa = PBXGroup;
+			children = (
+				CC86F6C620E19C36009F025D /* AppDelegate.swift */,
+				CC86F6C820E19C36009F025D /* ViewController.swift */,
+				CC86F6CA20E19C36009F025D /* Main.storyboard */,
+				CC86F6CD20E19C36009F025D /* Assets.xcassets */,
+				CC86F6CF20E19C36009F025D /* LaunchScreen.storyboard */,
+				CC86F6D220E19C36009F025D /* Info.plist */,
+			);
+			path = "where-is-taco-bell";
+			sourceTree = "<group>";
+		};
+		CC86F6DA20E19C37009F025D /* where-is-taco-bellTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC86F6DB20E19C37009F025D /* where_is_taco_bellTests.swift */,
+				CC86F6DD20E19C37009F025D /* Info.plist */,
+			);
+			path = "where-is-taco-bellTests";
+			sourceTree = "<group>";
+		};
+		CC86F6E520E19C37009F025D /* where-is-taco-bellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC86F6E620E19C37009F025D /* where_is_taco_bellUITests.swift */,
+				CC86F6E820E19C37009F025D /* Info.plist */,
+			);
+			path = "where-is-taco-bellUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC86F6C220E19C36009F025D /* where-is-taco-bell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC86F6EB20E19C37009F025D /* Build configuration list for PBXNativeTarget "where-is-taco-bell" */;
+			buildPhases = (
+				CC86F6BF20E19C36009F025D /* Sources */,
+				CC86F6C020E19C36009F025D /* Frameworks */,
+				CC86F6C120E19C36009F025D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "where-is-taco-bell";
+			productName = "where-is-taco-bell";
+			productReference = CC86F6C320E19C36009F025D /* where-is-taco-bell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC86F6D620E19C37009F025D /* where-is-taco-bellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC86F6EE20E19C37009F025D /* Build configuration list for PBXNativeTarget "where-is-taco-bellTests" */;
+			buildPhases = (
+				CC86F6D320E19C37009F025D /* Sources */,
+				CC86F6D420E19C37009F025D /* Frameworks */,
+				CC86F6D520E19C37009F025D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC86F6D920E19C37009F025D /* PBXTargetDependency */,
+			);
+			name = "where-is-taco-bellTests";
+			productName = "where-is-taco-bellTests";
+			productReference = CC86F6D720E19C37009F025D /* where-is-taco-bellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC86F6E120E19C37009F025D /* where-is-taco-bellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC86F6F120E19C37009F025D /* Build configuration list for PBXNativeTarget "where-is-taco-bellUITests" */;
+			buildPhases = (
+				CC86F6DE20E19C37009F025D /* Sources */,
+				CC86F6DF20E19C37009F025D /* Frameworks */,
+				CC86F6E020E19C37009F025D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC86F6E420E19C37009F025D /* PBXTargetDependency */,
+			);
+			name = "where-is-taco-bellUITests";
+			productName = "where-is-taco-bellUITests";
+			productReference = CC86F6E220E19C37009F025D /* where-is-taco-bellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC86F6BB20E19C36009F025D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Rachel Partridge";
+				TargetAttributes = {
+					CC86F6C220E19C36009F025D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					CC86F6D620E19C37009F025D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC86F6C220E19C36009F025D;
+					};
+					CC86F6E120E19C37009F025D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC86F6C220E19C36009F025D;
+					};
+				};
+			};
+			buildConfigurationList = CC86F6BE20E19C36009F025D /* Build configuration list for PBXProject "where-is-taco-bell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC86F6BA20E19C36009F025D;
+			productRefGroup = CC86F6C420E19C36009F025D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC86F6C220E19C36009F025D /* where-is-taco-bell */,
+				CC86F6D620E19C37009F025D /* where-is-taco-bellTests */,
+				CC86F6E120E19C37009F025D /* where-is-taco-bellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC86F6C120E19C36009F025D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC86F6D120E19C36009F025D /* LaunchScreen.storyboard in Resources */,
+				CC86F6CE20E19C36009F025D /* Assets.xcassets in Resources */,
+				CC86F6CC20E19C36009F025D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC86F6D520E19C37009F025D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC86F6E020E19C37009F025D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC86F6BF20E19C36009F025D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC86F6C920E19C36009F025D /* ViewController.swift in Sources */,
+				CC86F6C720E19C36009F025D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC86F6D320E19C37009F025D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC86F6DC20E19C37009F025D /* where_is_taco_bellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC86F6DE20E19C37009F025D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC86F6E720E19C37009F025D /* where_is_taco_bellUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC86F6D920E19C37009F025D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC86F6C220E19C36009F025D /* where-is-taco-bell */;
+			targetProxy = CC86F6D820E19C37009F025D /* PBXContainerItemProxy */;
+		};
+		CC86F6E420E19C37009F025D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC86F6C220E19C36009F025D /* where-is-taco-bell */;
+			targetProxy = CC86F6E320E19C37009F025D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC86F6CA20E19C36009F025D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC86F6CB20E19C36009F025D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC86F6CF20E19C36009F025D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC86F6D020E19C36009F025D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC86F6E920E19C37009F025D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC86F6EA20E19C37009F025D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC86F6EC20E19C37009F025D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "where-is-taco-bell/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "partridge.where-is-taco-bell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CC86F6ED20E19C37009F025D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "where-is-taco-bell/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "partridge.where-is-taco-bell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CC86F6EF20E19C37009F025D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "where-is-taco-bellTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "partridge.where-is-taco-bellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/where-is-taco-bell.app/where-is-taco-bell";
+			};
+			name = Debug;
+		};
+		CC86F6F020E19C37009F025D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "where-is-taco-bellTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "partridge.where-is-taco-bellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/where-is-taco-bell.app/where-is-taco-bell";
+			};
+			name = Release;
+		};
+		CC86F6F220E19C37009F025D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "where-is-taco-bellUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "partridge.where-is-taco-bellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "where-is-taco-bell";
+			};
+			name = Debug;
+		};
+		CC86F6F320E19C37009F025D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "where-is-taco-bellUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "partridge.where-is-taco-bellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "where-is-taco-bell";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC86F6BE20E19C36009F025D /* Build configuration list for PBXProject "where-is-taco-bell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC86F6E920E19C37009F025D /* Debug */,
+				CC86F6EA20E19C37009F025D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC86F6EB20E19C37009F025D /* Build configuration list for PBXNativeTarget "where-is-taco-bell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC86F6EC20E19C37009F025D /* Debug */,
+				CC86F6ED20E19C37009F025D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC86F6EE20E19C37009F025D /* Build configuration list for PBXNativeTarget "where-is-taco-bellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC86F6EF20E19C37009F025D /* Debug */,
+				CC86F6F020E19C37009F025D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC86F6F120E19C37009F025D /* Build configuration list for PBXNativeTarget "where-is-taco-bellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC86F6F220E19C37009F025D /* Debug */,
+				CC86F6F320E19C37009F025D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC86F6BB20E19C36009F025D /* Project object */;
+}
